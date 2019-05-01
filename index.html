@@ -13,8 +13,46 @@
 </head>
 <body>
 
-<!-- Navigation -->
-
+<!-- Navigation - this is the nav bar at the top! -->
+<!-- md refers to the medium viewport see bottomof .css -->
+<!-- bg background -->
+<!--  -->
+<nav class='navbar navbar-expand-md navbar-light bg-light sticky-top'>
+<div class="container-fluid">
+	<a class="navbar-brand" href="http://www.ferdiesfoodlab.co.uk/"><img src="img/logo.png"></a>	
+	<!--a class="navbar-brand" href="http://www.ferdiesfoodlab.co.uk/"><img src="img/foodlab_logo.png"></a-->
+	
+	<!-- #navbarResponsive css selector I think? Yes see div below-->
+	<button class="nav-bar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"	>
+		<!-- icon span instead of a line for each bar - boostrap - navbar-toggler-icon (hamburger icon) -->
+		<!-- https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color -->
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	
+	<div class="collapse navbar-collaspe" id="navbarResponsive">
+		<!-- navbar items in unordered list -->
+		<!-- ml-auto puts title on left / or drop down depending on viewport -->
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Team</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Services</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Connect</a>
+			</li>
+		</ul>
+		
+	</div>
+</div>
+</nav>
 
 <!--- Image Slider -->
 
@@ -65,9 +103,9 @@
 
 
 
-<!--- Check out my course on Udemy! -->
+<!--- Check out my course on Udemy! >
 <div class="udemy-course" style="position: fixed; bottom: 0; right: 0; margin-bottom: -5px; z-index: 100;">
 	<a href="http://bit.ly/advanced-bootstrap-course" target="_blank" style="z-index: 999!important; cursor: pointer!important;"><img src="https://www.w3newbie.com/wp-content/uploads/nuno-udemy-banner.png" style="max-width: 100%; min-width: 100%;"></a>
-</div>
+</div-->
 
 
