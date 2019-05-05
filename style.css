@@ -268,12 +268,6 @@ hr.light-100 {
 }
 
 
-
-
-/*--
---*/
-/*--  --*/
-
 /*--  
 @media
 Using media queries are a popular technique for delivering a tailored style sheet
@@ -293,18 +287,45 @@ orientation (is the tablet/phone in landscape or portrait mode?)
 resolution
 . . and more
 --*/
-/*---Media Queries --*/
-@media (max-width: 992px) {
 
+/*---Media Queries --*/
+@media (max-width: 992px) { /*--  --*/
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
   }
-@media (max-width: 768px) {
+}
+
+@media (max-width: 768px) { /*--  --*/
+.carousel-caption {
+  top: 45%;  
+}
+.carousel-caption h1 {
+  font-size: 350%;
+}
+.carousel-caption h3 {
+  font-size: 140%;
+  font-weight: 400;
+  padding-bottom: 0.2rem;
+}
+.carousel-caption .btn {
   
+}
+
 }
 @media (max-width: 576px) {
   
 }
 
+
+
+
+
+
+/*--
+--*/
 /*--  --*/
+
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
