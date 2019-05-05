@@ -297,24 +297,46 @@ resolution
 }
 
 @media (max-width: 768px) { /*--  --*/
-.carousel-caption {
-  top: 45%;  
-}
-.carousel-caption h1 {
-  font-size: 350%;
-}
-.carousel-caption h3 {
-  font-size: 140%;
-  font-weight: 400;
-  padding-bottom: 0.2rem;
-}
-.carousel-caption .btn {
-  
+  .carousel-caption {
+    top: 45%;  
+  }
+  .carousel-caption h1 {
+    font-size: 350%;
+  }
+  .carousel-caption h3 {
+    font-size: 140%;
+    font-weight: 400;
+    padding-bottom: 0.2rem;
+  }
+  .carousel-caption .btn {
+    
+  }
 }
 
-}
+/*-- mobile phone --*/
+/*-- target 310px --*/
 @media (max-width: 576px) {
+  .carousel-indicators {
+    display: none;
+  }
+
+  h1.attention-title {
+    font-size: 2em;    
+  }
   
+  .social a {
+    font-size: 2.5em;
+    padding: 0.2em;
+  }
+  
+  .carousel-caption h3 {
+    text-shadow: 1px 1px 5px #000;
+  }  
+
+  .carousel-caption p {
+    text-shadow: 1px 1px 5px #000;
+  }
+
 }
 
 
