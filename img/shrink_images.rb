@@ -1,6 +1,10 @@
 #!/usr/bin/env ruby
 
 # helper script to shrink images ~430px wide - faster page load
+# cd into img folder run ./shrink_images
+# it will shrink all jpg images to 430px wide
+# possibly a bit too small for the carousell on a desktop! :/
+# puts the originals into scratch
 
 require 'rubygems'
 require 'fileutils'
